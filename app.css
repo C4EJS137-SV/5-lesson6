@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color:rgb(209, 169, 94);
+    width: 100%;
+    height: auto;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.mian {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mian-one {
+    margin-left: 100px;
+}
+.mian-one a {
+    padding: 10px;
+}
+.mian-two {
+    margin-right:100px ;
+}
+.mian-two a {
+    padding: 15px; }
+
+.booter {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    }
+.img-buil {
+    margin-left: 100px;
+}
+.menu {
+    
+    width: auto;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-one{
+    display: flex;
+    list-style: none;
+        }
+.menu-one li {
+    position: relative;
+}
+
+.menu-one li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    position: relative;
+   
+}
+.sub-menu {
+    position: absolute;
+    background-color: darkgray;
+    width: 200px;
+    display: none;
+    z-index: 1;
+    list-style: none;
+}
+.sub-menu li {
+    padding: 5px;
+    border-bottom: 1px solid cornsilk ;
+    padding-left: 15px;
+    font-size: 20px;
+}.menu-one li:hover ul.sub-menu{
+    display: block;
+}
+.menu-two {
+    display: flex;
+    padding: px;
+}
+
+.footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    padding-top: 10px;
+}
+.footer-one {
+    padding-right: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.one{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+    bottom: 100px ;
+    left: 40px;
+}
+.two {
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.footer-two {
+    position: absolute;
+    left: 65%;
+    bottom: 14px;
+}
+.footer-two div {
+    margin: 10px;
+}
+img:hover {
+-webkit-transform : scale(0.9);
+
+opacity:unset ;
+}
+ 
